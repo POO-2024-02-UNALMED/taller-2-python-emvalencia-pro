@@ -18,7 +18,7 @@ class Motor:
         self.registro=r
     
     def asignarTipo(self,t):
-        if t=="electrico" or t=="gasolina":
+        if t in ["gasolina","electrico"]:
             self.tipo = t
 
 class Auto:
